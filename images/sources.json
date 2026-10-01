@@ -1,0 +1,786 @@
+[
+  {
+    "file": "images/original/Yoplala_1555505085_EET.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1555505085_EET.PNG",
+    "caption": "원문 배포 페이지의 EET 다운로드 버튼",
+    "width": 243,
+    "height": 44,
+    "sha256": "59d1bdb0734b67642b55c2b640c4b068d82a05432d24362854c852d81a41159d"
+  },
+  {
+    "file": "images/original/Yoplala_1555505272_EET_1.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1555505272_EET_1.PNG",
+    "caption": "원문 설치 과정 스크린샷 1",
+    "width": 1057,
+    "height": 761,
+    "sha256": "7cf38cc933dd3892b7b7d363cd6ad8bf99978a301690c71594dc0e100f85bb92"
+  },
+  {
+    "file": "images/original/Yoplala_1566419931_Yoplala_1555505283_EET_2.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566419931_Yoplala_1555505283_EET_2.PNG",
+    "caption": "원문 설치 과정 스크린샷 2",
+    "width": 515,
+    "height": 297,
+    "sha256": "959e5188d96136500d63bf91928215c277cc2acfabab2499e90219f33ec7b8dd"
+  },
+  {
+    "file": "images/original/Yoplala_1566755382_FenA_tre_principale_2.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566755382_FenA_tre_principale_2.PNG",
+    "caption": "EET 메인 창의 11개 영역: 아래 번호별 설명과 대응",
+    "width": 1324,
+    "height": 809,
+    "sha256": "9cbfa405ac0a6bb1850558a423ac0fcb34714152bb3cd5d59ebbf4e2dd4cb331"
+  },
+  {
+    "file": "images/original/Yoplala_1566841668_FenA_tre_Langues.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566841668_FenA_tre_Langues.PNG",
+    "caption": "프로그램 언어 설정 창",
+    "width": 1172,
+    "height": 596,
+    "sha256": "68a6ef3abbfdfff9d7d53d315d1e8bce6ee609b7fe282ffa2d63c77c46f59ced"
+  },
+  {
+    "file": "images/original/Yoplala_1566841816_FenA_tre_Recherche.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566841816_FenA_tre_Recherche.PNG",
+    "caption": "찾기 및 바꾸기와 텍스트 내보내기 창 1",
+    "width": 494,
+    "height": 330,
+    "sha256": "3181546519f8034f3886b6d0c5c6fd2b937d993ff6a7364a07f6e8c04ebc6e55"
+  },
+  {
+    "file": "images/original/Yoplala_1566842010_FenA_tre_Exportation.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566842010_FenA_tre_Exportation.PNG",
+    "caption": "찾기 및 바꾸기와 텍스트 내보내기 창 2",
+    "width": 594,
+    "height": 497,
+    "sha256": "7ea1fbe773f62e4d707140b40a4feeab78a36ebea509fd89b7a9728f6c500d83"
+  },
+  {
+    "file": "images/original/Yoplala_1566843506_Auto_1.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566843506_Auto_1.PNG",
+    "caption": "자동 번역 옵션 화면 1",
+    "width": 1042,
+    "height": 653,
+    "sha256": "88ecadd4f65e3200b85f19b1924d50fc60ed4542e0b8bcd01fdd9d64fb39ae07"
+  },
+  {
+    "file": "images/original/Yoplala_1566843523_Auto_2.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566843523_Auto_2.PNG",
+    "caption": "자동 번역 옵션 화면 2",
+    "width": 1049,
+    "height": 652,
+    "sha256": "12fdd97660c1347a3f5c48e00d46bc9f9d8ef711a674e88255d63123400fb82f"
+  },
+  {
+    "file": "images/original/Yoplala_1566843531_Auto_3.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566843531_Auto_3.PNG",
+    "caption": "자동 번역 옵션 화면 3",
+    "width": 1039,
+    "height": 655,
+    "sha256": "e19357d39084fd2467067d318d074403ca8c7078c1c2c13a47f57b11c118f60f"
+  },
+  {
+    "file": "images/original/Yoplala_1566843541_Auto_4.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566843541_Auto_4.PNG",
+    "caption": "자동 번역 옵션 화면 4",
+    "width": 1038,
+    "height": 655,
+    "sha256": "0c90c1e6bb400e594beeb86fbc0dd204d0567638ab3cc184468e65da345b63b8"
+  },
+  {
+    "file": "images/original/Yoplala_1566843551_Auto_5.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566843551_Auto_5.PNG",
+    "caption": "자동 번역 옵션 화면 5",
+    "width": 1040,
+    "height": 653,
+    "sha256": "0ee99d6e6ccbb7a8d8c045f2471896dc04840181565636a7d09360fc9dcf081a"
+  },
+  {
+    "file": "images/original/Yoplala_1566843563_Auto_6.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566843563_Auto_6.PNG",
+    "caption": "자동 번역 옵션 화면 6",
+    "width": 1032,
+    "height": 732,
+    "sha256": "bd0e2f19922cb7ab998d0b134ee0dd44e31a07ec03ae7be15df20cfb80c1f8b3"
+  },
+  {
+    "file": "images/original/Yoplala_1566843577_Auto_7.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566843577_Auto_7.PNG",
+    "caption": "자동 번역 옵션 화면 7",
+    "width": 1036,
+    "height": 654,
+    "sha256": "ebda201d24afd5ffcdfeee5a13ddbedff0bdb9ab6cd462f561a9bb3837b56e72"
+  },
+  {
+    "file": "images/original/Yoplala_1566843587_Auto_8.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566843587_Auto_8.PNG",
+    "caption": "자동 번역 옵션 화면 8",
+    "width": 1038,
+    "height": 653,
+    "sha256": "1b7f79b3906314f1cbb221f8a63a9160373bb8c8b78b937734917fc9b9bf03c1"
+  },
+  {
+    "file": "images/original/Yoplala_1566844671_BDD_3.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566844671_BDD_3.PNG",
+    "caption": "DB 검색·선택·가져오기 화면 1",
+    "width": 795,
+    "height": 549,
+    "sha256": "bf992340da1c6c3f09d46f55c0b351ac051848ad5dcc770db1a6ca8359f69b9e"
+  },
+  {
+    "file": "images/original/Yoplala_1566844698_BDD_4.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566844698_BDD_4.PNG",
+    "caption": "DB 검색·선택·가져오기 화면 2",
+    "width": 941,
+    "height": 599,
+    "sha256": "a860d1d9cc81826302d88f047ba41f9d2962560fe4c506835d6269d30eb41760"
+  },
+  {
+    "file": "images/original/Yoplala_1566844714_BDD_5.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566844714_BDD_5.PNG",
+    "caption": "DB 검색·선택·가져오기 화면 3",
+    "width": 795,
+    "height": 551,
+    "sha256": "dbfd8fca77ded0548b9c97c3f13c405b55b9fb02d0855e82c31a07d0d2a1fdf3"
+  },
+  {
+    "file": "images/original/Yoplala_1566844730_BDD_6.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566844730_BDD_6.PNG",
+    "caption": "DB 검색·선택·가져오기 화면 4",
+    "width": 944,
+    "height": 599,
+    "sha256": "dc4409b348db8ba036c8f7512ead98c803edab410bc0d1bdfd91a350e199653a"
+  },
+  {
+    "file": "images/original/Yoplala_1566842626_FenA_tre_Multiple_1.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566842626_FenA_tre_Multiple_1.PNG",
+    "caption": "DB 검색·선택·가져오기 화면 5",
+    "width": 557,
+    "height": 175,
+    "sha256": "ded3b189e0acc7e5f5e437660d5677b9e6997ced0d17ba8ab09e9be7d7f44308"
+  },
+  {
+    "file": "images/original/Yoplala_1566842654_FenA_tre_Multiple_2.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566842654_FenA_tre_Multiple_2.PNG",
+    "caption": "DB 검색·선택·가져오기 화면 6",
+    "width": 445,
+    "height": 493,
+    "sha256": "26036534676afbf9ddf84eb7fbc08ea1b33e9da05fd0a9a10f304743bff197c7"
+  },
+  {
+    "file": "images/original/Yoplala_1566842678_FenA_tre_Multiple_3.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566842678_FenA_tre_Multiple_3.PNG",
+    "caption": "DB 검색·선택·가져오기 화면 7",
+    "width": 798,
+    "height": 551,
+    "sha256": "ef5bfd2f40a0ba1cee2f26c80c009d30387e6fb95cd14f9f224fd219695c0ab5"
+  },
+  {
+    "file": "images/original/Yoplala_1566842703_FenA_tre_Sauvegardes_1.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566842703_FenA_tre_Sauvegardes_1.PNG",
+    "caption": "DB 검색·선택·가져오기 화면 8",
+    "width": 552,
+    "height": 176,
+    "sha256": "7b71b07f0f8f8867503854cb03a275a901e395342a1bfcb875d483f72a3b90fa"
+  },
+  {
+    "file": "images/original/Yoplala_1566842727_FenA_tre_Sauvegardes_2.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566842727_FenA_tre_Sauvegardes_2.PNG",
+    "caption": "DB 검색·선택·가져오기 화면 9",
+    "width": 444,
+    "height": 497,
+    "sha256": "f879c942a55fc3d8fd5d3a7a555cc784880a306b29d8f978dbc19dec9db2dbb9"
+  },
+  {
+    "file": "images/original/Yoplala_1566842745_FenA_tre_Sauvegardes_3.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566842745_FenA_tre_Sauvegardes_3.PNG",
+    "caption": "DB 검색·선택·가져오기 화면 10",
+    "width": 1140,
+    "height": 664,
+    "sha256": "67f9143c0d6fe24a0407478feb5eaeb772a5550fe7a094a3d52549214fd0117c"
+  },
+  {
+    "file": "images/original/Yoplala_1566846516_Importation.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566846516_Importation.PNG",
+    "caption": "DB 검색·선택·가져오기 화면 11",
+    "width": 896,
+    "height": 598,
+    "sha256": "f1d8196342cd5629998796c5e05e36b9f32738b18d34529444fb15a69440203a"
+  },
+  {
+    "file": "images/original/Yoplala_1566846540_Importation_rapide.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566846540_Importation_rapide.PNG",
+    "caption": "DB 검색·선택·가져오기 화면 12",
+    "width": 797,
+    "height": 598,
+    "sha256": "e2db1c47af7983136fe6cc1cdcb423abdea939cab1faece4ee22681448662ef0"
+  },
+  {
+    "file": "images/original/Yoplala_1566846621_Dictionnaire_d_analyse.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566846621_Dictionnaire_d_analyse.PNG",
+    "caption": "DB 검색·선택·가져오기 화면 13",
+    "width": 597,
+    "height": 393,
+    "sha256": "2e12733c3ed47f1cb38fa634a0b16c39bb2ed73284ac4a0b1c3e397d918dd037"
+  },
+  {
+    "file": "images/original/Yoplala_1566848160_ThA_mes.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566848160_ThA_mes.PNG",
+    "caption": "테마·줄 색상·작업 기록 화면 1",
+    "width": 435,
+    "height": 547,
+    "sha256": "10b838908cf2187037b58f5d0d9b1108f8b0ff1c965166d5faa1e38556a08361"
+  },
+  {
+    "file": "images/original/Yoplala_1566848183_Couleurs.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566848183_Couleurs.PNG",
+    "caption": "테마·줄 색상·작업 기록 화면 2",
+    "width": 332,
+    "height": 508,
+    "sha256": "2ea87e2259d30b00607a9384c1067a579b901f3ed39ff3ccd1bdc9ae69e2486d"
+  },
+  {
+    "file": "images/original/Yoplala_1566848268_Historique.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566848268_Historique.PNG",
+    "caption": "테마·줄 색상·작업 기록 화면 3",
+    "width": 771,
+    "height": 450,
+    "sha256": "70a45a179b6f2cfa25e77193d86c59afb1d653829b19bb0b3777424316fe6107"
+  },
+  {
+    "file": "images/original/Yoplala_1566848308_Lises_modifs.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566848308_Lises_modifs.PNG",
+    "caption": "테마·줄 색상·작업 기록 화면 4",
+    "width": 1318,
+    "height": 95,
+    "sha256": "89095b7003d5cd76de6f9eaf7b5fb6f2fe94320e3e0a218a907f1d83be874897"
+  },
+  {
+    "file": "images/original/Yoplala_1566848354_CohA_rence_des_mods.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566848354_CohA_rence_des_mods.PNG",
+    "caption": "일관성 검사와 DB 변환 화면 1",
+    "width": 760,
+    "height": 487,
+    "sha256": "46385245df67ab9d690cb12cdb029d14d0ba25e35ad634b14be1080c73907b8b"
+  },
+  {
+    "file": "images/original/Yoplala_1566848393_Convertir_BDD.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566848393_Convertir_BDD.PNG",
+    "caption": "일관성 검사와 DB 변환 화면 2",
+    "width": 761,
+    "height": 464,
+    "sha256": "a3c2812e4a272b11ddfd2f6e1a073f518cf24bc82298dfd31607e6efa7a02319"
+  },
+  {
+    "file": "images/original/Yoplala_1566848425_Convertir_fichier_texte.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566848425_Convertir_fichier_texte.PNG",
+    "caption": "일관성 검사와 DB 변환 화면 3",
+    "width": 794,
+    "height": 704,
+    "sha256": "12988583ec8eb139a383317667d772d51ed2b99cbb3c535ce4b96f7a88f03dd1"
+  },
+  {
+    "file": "images/original/Yoplala_1566765609_Options_gA_nA_rales_1.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566765609_Options_gA_nA_rales_1.PNG",
+    "caption": "일반 옵션과 기본 DB 설정 1",
+    "width": 748,
+    "height": 85,
+    "sha256": "94b7426c58264a78d24742b5f398bf621a95287d5282877a76f3af2584e679a4"
+  },
+  {
+    "file": "images/original/Yoplala_1566765762_Options_BDD.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566765762_Options_BDD.PNG",
+    "caption": "일반 옵션과 기본 DB 설정 2",
+    "width": 457,
+    "height": 796,
+    "sha256": "34600fa28fa32f16bd1947099e2688643394997d586727d6a31b2278ec98ed58"
+  },
+  {
+    "file": "images/original/Yoplala_1566765638_Options_gA_nA_rales_2.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566765638_Options_gA_nA_rales_2.PNG",
+    "caption": "일반 옵션과 기본 DB 설정 3",
+    "width": 752,
+    "height": 177,
+    "sha256": "0d0e1c5e82e5edac16b1125fc26ea1cd794701adcacbb37f45c350655597046c"
+  },
+  {
+    "file": "images/original/Yoplala_1566765651_Options_gA_nA_rales_3.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566765651_Options_gA_nA_rales_3.PNG",
+    "caption": "일반 옵션과 기본 DB 설정 4",
+    "width": 749,
+    "height": 102,
+    "sha256": "cb99d576ae89eff31e58983b0ce115fe2a76ebfff803a39e5e4e1e785e89a756"
+  },
+  {
+    "file": "images/original/Yoplala_1566765675_Options_gA_nA_rales_4.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566765675_Options_gA_nA_rales_4.PNG",
+    "caption": "일반 옵션과 기본 DB 설정 5",
+    "width": 751,
+    "height": 59,
+    "sha256": "96461d49ad59f527b63d12af8bb2af1bf45de0e30306640590c695ef5de54c56"
+  },
+  {
+    "file": "images/original/Yoplala_1566768100_Options_gA_nA_rales_5.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566768100_Options_gA_nA_rales_5.PNG",
+    "caption": "일반 옵션과 기본 DB 설정 6",
+    "width": 750,
+    "height": 321,
+    "sha256": "a5d7c377ded0c2745c8d2e0725d590c45c6492d62df2ca23989dd320b64727eb"
+  },
+  {
+    "file": "images/original/Yoplala_1566765706_Options_gA_nA_rales_6.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566765706_Options_gA_nA_rales_6.PNG",
+    "caption": "일반 옵션과 기본 DB 설정 7",
+    "width": 743,
+    "height": 52,
+    "sha256": "2bc567a2ebe307b4129b3c12ab2fce4b45b4cafaaa54e3888d61af45bf088cc7"
+  },
+  {
+    "file": "images/original/Yoplala_1566768949_Capture.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566768949_Capture.PNG",
+    "caption": "일반 옵션과 기본 DB 설정 8",
+    "width": 744,
+    "height": 77,
+    "sha256": "cea1aff4fc82737d5738b816fd4ae8f8e64630a3813a49b8512bbdab86f9714d"
+  },
+  {
+    "file": "images/original/Yoplala_1566765743_Options_gA_nA_rales_8.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566765743_Options_gA_nA_rales_8.PNG",
+    "caption": "일반 옵션과 기본 DB 설정 9",
+    "width": 762,
+    "height": 54,
+    "sha256": "b0016d8395a1dc7cd0c20d271cad9b5dc068da29ae6d2155a702a03af85d6f96"
+  },
+  {
+    "file": "images/original/Yoplala_1566812725_Options_BDD_1.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566812725_Options_BDD_1.PNG",
+    "caption": "데이터베이스 옵션 1",
+    "width": 747,
+    "height": 235,
+    "sha256": "623aae0d866a86dc9be566d23ab141fecf87dabc08e66532ee3785aab4bbb7f6"
+  },
+  {
+    "file": "images/original/Yoplala_1566812738_Options_BDD_2.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566812738_Options_BDD_2.PNG",
+    "caption": "데이터베이스 옵션 2",
+    "width": 743,
+    "height": 259,
+    "sha256": "b55c04450ea8fa76a8153f4e4e024ec43eeebdead0a1cf261abc9ff5e27b558c"
+  },
+  {
+    "file": "images/original/Yoplala_1566812754_Options_BDD_3.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566812754_Options_BDD_3.PNG",
+    "caption": "데이터베이스 옵션 3",
+    "width": 744,
+    "height": 174,
+    "sha256": "814fd6f95f5abef2ee3632cf1fb1c28c3ec8805a00352c8ec86cfd30cff263ca"
+  },
+  {
+    "file": "images/original/Yoplala_1566812768_Options_BDD_4.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566812768_Options_BDD_4.PNG",
+    "caption": "데이터베이스 옵션 4",
+    "width": 741,
+    "height": 101,
+    "sha256": "03f6b39cc35d81f6bec363d9f09ab44c6a639b1983b2a7cd15f0721ff6b58e9c"
+  },
+  {
+    "file": "images/original/Yoplala_1566812786_Options_BDD_5.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566812786_Options_BDD_5.PNG",
+    "caption": "데이터베이스 옵션 5",
+    "width": 756,
+    "height": 119,
+    "sha256": "b1bcb29511d8d1b3409174bb874467624de3c670d0c32bef738ef37ec2a1ac61"
+  },
+  {
+    "file": "images/original/Yoplala_1566812797_Options_BDD_6.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566812797_Options_BDD_6.PNG",
+    "caption": "데이터베이스 옵션 6",
+    "width": 758,
+    "height": 231,
+    "sha256": "0686be6942ac790817528fe177fee15dea5dbfc7628e01830b125d1f67ab8faf"
+  },
+  {
+    "file": "images/original/Yoplala_1566812811_Options_BDD_7.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566812811_Options_BDD_7.PNG",
+    "caption": "데이터베이스 옵션 7",
+    "width": 743,
+    "height": 117,
+    "sha256": "b60f7ee37d27417bad05d3a5eff13f7b604ff5c4c1d27407e7751049ccf36419"
+  },
+  {
+    "file": "images/original/Yoplala_1566813733_Scripts_1.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566813733_Scripts_1.PNG",
+    "caption": "스크립트 및 MCM 옵션 1",
+    "width": 762,
+    "height": 279,
+    "sha256": "e4e3424d26fde4a6dc1caf0fd0530731b5d9b50e25b574275f1f3306092ddcc8"
+  },
+  {
+    "file": "images/original/Yoplala_1566813745_Scripts_2.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566813745_Scripts_2.PNG",
+    "caption": "스크립트 및 MCM 옵션 2",
+    "width": 767,
+    "height": 95,
+    "sha256": "08fa708ce7e3fd228e696f1fb84937575ff9887f75d2e5482c65e639dfcca660"
+  },
+  {
+    "file": "images/original/Yoplala_1566813759_Scripts_3.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566813759_Scripts_3.PNG",
+    "caption": "스크립트 및 MCM 옵션 3",
+    "width": 758,
+    "height": 96,
+    "sha256": "74a6748b302f15b87fd77ed81b8a27ca139f686c03271944a555f6c09de54314"
+  },
+  {
+    "file": "images/original/Yoplala_1566813772_Scripts_4.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566813772_Scripts_4.PNG",
+    "caption": "스크립트 및 MCM 옵션 4",
+    "width": 757,
+    "height": 70,
+    "sha256": "798eac203389d8052f5537c09e718828a4edbdc2d8f6caff5d12cf553c49273a"
+  },
+  {
+    "file": "images/original/Yoplala_1566813782_Scripts_5.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566813782_Scripts_5.PNG",
+    "caption": "스크립트 및 MCM 옵션 5",
+    "width": 763,
+    "height": 44,
+    "sha256": "3bc0aeae56fc0d608e3b20c80ae471f981ab07e1487ce6a249a2edced6514e7b"
+  },
+  {
+    "file": "images/original/Yoplala_1566813796_Scripts_6.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566813796_Scripts_6.PNG",
+    "caption": "스크립트 및 MCM 옵션 6",
+    "width": 762,
+    "height": 87,
+    "sha256": "2912a7567e028d6022f97508f77cc81f47d0f9863bfdb756fff5603107eb33a1"
+  },
+  {
+    "file": "images/original/Yoplala_1566813818_Grup.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566813818_Grup.PNG",
+    "caption": "Def_grup.xml 설정 화면",
+    "width": 765,
+    "height": 736,
+    "sha256": "7642b06bd0c846275bbdb449bb1fed567e354ebfbc499750204ce4e38182e21b"
+  },
+  {
+    "file": "images/original/Yoplala_1566814250_Divers_1.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566814250_Divers_1.PNG",
+    "caption": "기타 옵션 1",
+    "width": 746,
+    "height": 161,
+    "sha256": "394066d9c9e04ac6e0c3d08580d299e78743c12d81fb3461096425743a8a9056"
+  },
+  {
+    "file": "images/original/Yoplala_1566814268_Divers_2.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566814268_Divers_2.PNG",
+    "caption": "기타 옵션 2",
+    "width": 754,
+    "height": 77,
+    "sha256": "07d04756b6104fb57194fbf89f3cc929cabaa35c3aa82cca5bcf53a5ee3920ad"
+  },
+  {
+    "file": "images/original/Yoplala_1566814285_Divers_3.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566814285_Divers_3.PNG",
+    "caption": "기타 옵션 3",
+    "width": 751,
+    "height": 159,
+    "sha256": "6fdae67d4d45ff413544aa2b0cc4faa0955a2364cf90b81f70d4fb73af3e013d"
+  },
+  {
+    "file": "images/original/Yoplala_1566814298_Divers_4.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566814298_Divers_4.PNG",
+    "caption": "기타 옵션 4",
+    "width": 744,
+    "height": 80,
+    "sha256": "326b60377100d683e3cf13c603aad4d4c322da9a812a7901eedebd980ad39c13"
+  },
+  {
+    "file": "images/original/Yoplala_1566814313_Divers_5.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566814313_Divers_5.PNG",
+    "caption": "기타 옵션 5",
+    "width": 744,
+    "height": 159,
+    "sha256": "c2a9bc38757d583dbb88415493b73e89cfd45a0b9e6e73c2e0f3aff77a865a0e"
+  },
+  {
+    "file": "images/original/Yoplala_1566814324_Divers_6.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566814324_Divers_6.PNG",
+    "caption": "기타 옵션 6",
+    "width": 744,
+    "height": 71,
+    "sha256": "8d85d4fa391c1c220d5290589d8cd8884c67c9e390aaeb0480a31366dd7bfb6d"
+  },
+  {
+    "file": "images/original/Yoplala_1566814341_Divers_7.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566814341_Divers_7.PNG",
+    "caption": "기타 옵션 7",
+    "width": 762,
+    "height": 71,
+    "sha256": "23a67564cb01cf6f84b3faa6f19f678a3e67a76e0dd1be84fc658afc9b39c31f"
+  },
+  {
+    "file": "images/original/Yoplala_1566814362_VA_rifications.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566814362_VA_rifications.PNG",
+    "caption": "금지 문자 검사 설정",
+    "width": 771,
+    "height": 842,
+    "sha256": "838e04b17dd831474707490adc4135ad763c581c0691207ed171be35d5277c2e"
+  },
+  {
+    "file": "images/original/Yoplala_1566813842_Dossiers.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566813842_Dossiers.PNG",
+    "caption": "폴더·특수 검색·인터페이스·분석 규칙 옵션 1",
+    "width": 750,
+    "height": 332,
+    "sha256": "14d52c7e9fb52879e238400ce3929c1a4812c8ded359c0426eb5bf1c3629ced1"
+  },
+  {
+    "file": "images/original/Yoplala_1566814210_Recherche_1.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566814210_Recherche_1.PNG",
+    "caption": "폴더·특수 검색·인터페이스·분석 규칙 옵션 2",
+    "width": 763,
+    "height": 139,
+    "sha256": "12e40059c939502ae75ca551dc5e151ac1dcfda65dca44288ce453582eb106e5"
+  },
+  {
+    "file": "images/original/Yoplala_1566814223_Recherche_2.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566814223_Recherche_2.PNG",
+    "caption": "폴더·특수 검색·인터페이스·분석 규칙 옵션 3",
+    "width": 769,
+    "height": 128,
+    "sha256": "eaaa246c5299819242d18f701da986f5472e30e87210c0c30618e245e444dbc0"
+  },
+  {
+    "file": "images/original/Yoplala_1566814234_Recherche_3.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566814234_Recherche_3.PNG",
+    "caption": "폴더·특수 검색·인터페이스·분석 규칙 옵션 4",
+    "width": 759,
+    "height": 124,
+    "sha256": "82216c462429cccdd25591bf6838dfb8f24551d327bb9fd06996949957505ace"
+  },
+  {
+    "file": "images/original/Yoplala_1566814382_Interface_1.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566814382_Interface_1.PNG",
+    "caption": "폴더·특수 검색·인터페이스·분석 규칙 옵션 5",
+    "width": 766,
+    "height": 83,
+    "sha256": "31a33a57bccc13d19261617992508d1c9e470f99a8c793adee23b341e459d3b9"
+  },
+  {
+    "file": "images/original/Yoplala_1566814400_Interface_2.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566814400_Interface_2.PNG",
+    "caption": "폴더·특수 검색·인터페이스·분석 규칙 옵션 6",
+    "width": 766,
+    "height": 229,
+    "sha256": "374807dee295556388cade3964365d0ca3ac1055ff51c80a0f706155bb2bd998"
+  },
+  {
+    "file": "images/original/Yoplala_1566814416_Interface_3.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566814416_Interface_3.PNG",
+    "caption": "폴더·특수 검색·인터페이스·분석 규칙 옵션 7",
+    "width": 763,
+    "height": 84,
+    "sha256": "01053467f074313963cb8d734389788691034fb03a0357deefda2d8b7fb0aa75"
+  },
+  {
+    "file": "images/original/Yoplala_1566814437_RA_gles.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566814437_RA_gles.PNG",
+    "caption": "폴더·특수 검색·인터페이스·분석 규칙 옵션 8",
+    "width": 760,
+    "height": 147,
+    "sha256": "dbdc971a8052bb6983fca3fd7361f4449fef1f1a671a1bd8ea13e9c72405548c"
+  },
+  {
+    "file": "images/original/Yoplala_1531262351_Capture.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1531262351_Capture.PNG",
+    "caption": "문자열 인코딩 선택 창",
+    "width": 247,
+    "height": 170,
+    "sha256": "74c2c8b489b6b983013c82242f230c4d170defb06daf7b5c80cb576fb8be438f"
+  },
+  {
+    "file": "images/original/Yoplala_1566422556_Capture.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566422556_Capture.PNG",
+    "caption": "메인 창의 게임 DB와 인코딩 선택 영역",
+    "width": 430,
+    "height": 33,
+    "sha256": "e54b7505d300f09440916afc878aa9814ef629d0ca06e1702084fcc0ca7b3c0f"
+  },
+  {
+    "file": "images/original/Oaristys_1488712761_f5.jpg",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Oaristys/Oaristys_1488712761_f5.jpg",
+    "caption": "즉시 번역과 게임 DB 검색 화면 1",
+    "width": 1042,
+    "height": 69,
+    "sha256": "b9d24016f61171e454585af01109ed9d80891171e5648cad17b65b757abe5d4a"
+  },
+  {
+    "file": "images/original/Yoplala_1566844639_BDD_1.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566844639_BDD_1.PNG",
+    "caption": "즉시 번역과 게임 DB 검색 화면 2",
+    "width": 796,
+    "height": 548,
+    "sha256": "bdb7152fafd53aafe65d0dc46bc2153f62cbc2ce49021816b37aae049b803da5"
+  },
+  {
+    "file": "images/original/Oaristys_1488712504_ignore.jpg",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Oaristys/Oaristys_1488712504_ignore.jpg",
+    "caption": "번역하지 않을 문자열을 무시 상태로 표시한 예",
+    "width": 1002,
+    "height": 199,
+    "sha256": "d985d4e91c30f41f056d34decab4e5c2af854a85424fbac12bd6f6dab307f49a"
+  },
+  {
+    "file": "images/original/Yoplala_1567069862_F4.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1567069862_F4.PNG",
+    "caption": "현재 모드 검색 창: F4",
+    "width": 1061,
+    "height": 573,
+    "sha256": "ac527ebfb4382c48bcfe4589b60f13a70ea2f06a674f4e33db023c9526e72317"
+  },
+  {
+    "file": "images/original/Yoplala_1567250930_Capture.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1567250930_Capture.PNG",
+    "caption": "문자열 표의 열별 필터 입력란",
+    "width": 1585,
+    "height": 51,
+    "sha256": "a1b92ec88a1a201e517e5e7dfb444b2abf24c6fca1eb9f7eef83341d39bbbf2a"
+  },
+  {
+    "file": "images/original/Yoplala_1566842190_FenA_tre_Sauvegarde_partielle.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566842190_FenA_tre_Sauvegarde_partielle.PNG",
+    "caption": "번역 부분 저장 창",
+    "width": 594,
+    "height": 459,
+    "sha256": "5f46a7a47a1308b3d7224cc4322b17352954da85ee76298f87a6f548c5072818"
+  },
+  {
+    "file": "images/original/Yoplala_1531262947_le_tour.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1531262947_le_tour.PNG",
+    "caption": "번역된 플러그인 생성 완료 메시지",
+    "width": 171,
+    "height": 167,
+    "sha256": "fbad71bb5d442ffa997825473b47157fc9249f5b69a95267f7a3cb618db203e1"
+  },
+  {
+    "file": "images/original/Yoplala_1566841246_FenA_tre_Traduction.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566841246_FenA_tre_Traduction.PNG",
+    "caption": "별도의 번역 작업 창",
+    "width": 944,
+    "height": 479,
+    "sha256": "b023fb0df5d21330a3cdd1335eeb47f444d631f6d18a0ad7dc72bfdbc3730300"
+  },
+  {
+    "file": "images/original/Oaristys_1488712564_filtre_npc.jpg",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Oaristys/Oaristys_1488712564_filtre_npc.jpg",
+    "caption": "주석 열에서 NPC 이름을 필터링한 예",
+    "width": 874,
+    "height": 396,
+    "sha256": "5f7ba9ccc46d0200803b2dd97c1edf40eacb229072b11e36b7a99edb9b852425"
+  },
+  {
+    "file": "images/original/Yoplala_1567070824_4.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1567070824_4.PNG",
+    "caption": "스크립트·책·모델·음성 미리보기 버튼",
+    "width": 150,
+    "height": 51,
+    "sha256": "2fb9b04056d6e6acc55fcd17704f3f2508f316e3ec76f51bd73fe6a186fdc1bd"
+  },
+  {
+    "file": "images/original/Yoplala_1566848643_Scripts.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566848643_Scripts.PNG",
+    "caption": "스크립트와 책 미리보기 창 1",
+    "width": 494,
+    "height": 684,
+    "sha256": "ffacfb56748ffb4cba3503c3470792f105c7456a462ca1103dd46822bbd8219d"
+  },
+  {
+    "file": "images/original/Yoplala_1566848659_Livres.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566848659_Livres.PNG",
+    "caption": "스크립트와 책 미리보기 창 2",
+    "width": 791,
+    "height": 600,
+    "sha256": "a97e53ac28f0d4a2b306b43e3b815ae507c4d84c61aaed460bd48d8c385d7901"
+  },
+  {
+    "file": "images/original/Oaristys_1488712593_ligne_liee.jpg",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Oaristys/Oaristys_1488712593_ligne_liee.jpg",
+    "caption": "관련 레코드에서 연결된 대화문을 확인하는 예",
+    "width": 1592,
+    "height": 473,
+    "sha256": "859f7f81c4ac8611ff9e99209f608c827f9321b1a3aa59cad96dfb0f960bbc1b"
+  },
+  {
+    "file": "images/original/Yoplala_1566475558_Capture.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566475558_Capture.PNG",
+    "caption": "VMAD 분석 및 번역 활성화 옵션",
+    "width": 516,
+    "height": 26,
+    "sha256": "f69d17b246fcc763df2a5680fe385a0aaf9310e224efb16932c8229152db9425"
+  },
+  {
+    "file": "images/original/Yoplala_1566842921_FenA_tre_Scripts.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566842921_FenA_tre_Scripts.PNG",
+    "caption": "번역할 문자열의 문맥을 확인하는 스크립트 창",
+    "width": 929,
+    "height": 717,
+    "sha256": "42ac406ed6367d79d0b7bc2401e2bdaec49899d0ea8d073923be84f513057640"
+  },
+  {
+    "file": "images/original/Yoplala_1567071867_Onglet_unique.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1567071867_Onglet_unique.PNG",
+    "caption": "여러 모드의 문자열을 모아 보는 모든 모드 탭",
+    "width": 1920,
+    "height": 511,
+    "sha256": "0b8370b7b6ac7c8e8a2a4354b6b3edaf252dd3f15f5b3fb4b383b28ee899b69b"
+  },
+  {
+    "file": "images/original/Yoplala_1566846574_Analyse_mods.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566846574_Analyse_mods.PNG",
+    "caption": "여러 모드 분석과 두 모드 비교 창 1",
+    "width": 795,
+    "height": 596,
+    "sha256": "7977ef93c3c582ba0121ea737f669a3f8a6e936be88b8ef6855e25cae6e8cf1a"
+  },
+  {
+    "file": "images/original/Yoplala_1566846590_Comparaison.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566846590_Comparaison.PNG",
+    "caption": "여러 모드 분석과 두 모드 비교 창 2",
+    "width": 790,
+    "height": 591,
+    "sha256": "45b87f0bfb4345020d1e451f4d6a93a7c468e135cacb283399fc6c139d7b3a53"
+  },
+  {
+    "file": "images/original/Yoplala_1566475166_Capture.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566475166_Capture.PNG",
+    "caption": "개인 데이터베이스 설정",
+    "width": 455,
+    "height": 261,
+    "sha256": "743618d14ba8b380f606e207598e63475941994190e27cebed29904521663e73"
+  },
+  {
+    "file": "images/original/Yoplala_1566844656_BDD_2.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566844656_BDD_2.PNG",
+    "caption": "개인 DB 검색과 선택한 줄 추가 메뉴 1",
+    "width": 795,
+    "height": 546,
+    "sha256": "0b6b32213c33a4908b2d6018f6a84ead9548ab2f30962514adf6d7877330533b"
+  },
+  {
+    "file": "images/original/Yoplala_1574693945_EET_Clic_droit.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1574693945_EET_Clic_droit.PNG",
+    "caption": "개인 DB 검색과 선택한 줄 추가 메뉴 2",
+    "width": 486,
+    "height": 812,
+    "sha256": "2560c51dc602302d7bda47ced845a23af2689b52e100957f109c4b2079bc1d43"
+  },
+  {
+    "file": "images/original/Yoplala_1566474912_Capture.PNG",
+    "source_url": "https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566474912_Capture.PNG",
+    "caption": "일반 옵션의 검수 열 설정",
+    "width": 457,
+    "height": 98,
+    "sha256": "166128fd8ae8114a9ac241a84643d9f3233bbd09ad1b459298cf12ff2e49c00f"
+  }
+]
