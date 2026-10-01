@@ -68,6 +68,17 @@ Modding Tools/
 
 플러그인 파일을 EET와 연결해 `.esp`, `.esm`, `.esl` 파일을 바로 열 수도 있습니다.
 
+<details>
+<summary><strong>원문 스크린샷 - 설치</strong></summary>
+
+![EET 다운로드 화면](https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1555505085_EET.PNG)
+
+![EET 압축 해제 예시 1](https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1555505272_EET_1.PNG)
+
+![EET 압축 해제 예시 2](https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566419931_Yoplala_1555505283_EET_2.PNG)
+
+</details>
+
 ---
 
 # 2. 프로그램 구성
@@ -75,6 +86,13 @@ Modding Tools/
 ## 2.1 메인 창
 
 EET에서 모드를 열면 대략 다음 영역으로 나뉩니다.
+
+<details open>
+<summary><strong>원문 스크린샷 - 메인 창 구성</strong></summary>
+
+![EET 메인 창](https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566755382_FenA_tre_principale_2.PNG)
+
+</details>
 
 1. **제목 표시줄**  
    열린 모드 또는 현재 탭 이름, EET 버전, 적용 중인 DB 등을 표시합니다.
@@ -133,6 +151,15 @@ EET에서 모드를 열면 대략 다음 영역으로 나뉩니다.
 
 ### 파일
 
+<details>
+<summary><strong>원문 스크린샷 - 파일 열기 / 번역 실행 / 옵션</strong></summary>
+
+![파일 열기](https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566729696_Ouvrir_un_mod.PNG)
+![모드 번역 실행](https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566729726_Lancer_traduction.PNG)
+![옵션](https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566729587_Options.PNG)
+
+</details>
+
 - **파일 열기**: ESP/ESM/ESL, XML 등 지원 파일 열기
 - **파일 목록 열기**: 여러 파일 선택
 - **아카이브 열기**: BSA, BA2, ERF 등
@@ -146,6 +173,18 @@ EET에서 모드를 열면 대략 다음 영역으로 나뉩니다.
 > 번역 결과를 생성할 때는 보통 **확정된 문자열**만 최종 결과에 반영됩니다. 작업 중인 상태와 최종 출력 상태를 구분해서 사용하는 것이 좋습니다.
 
 ### 편집
+
+<details>
+<summary><strong>원문 스크린샷 - 검색 / 내보내기 / 상태 버튼</strong></summary>
+
+![검색 창](https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566841816_FenA_tre_Recherche.PNG)
+![내보내기 창](https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566842010_FenA_tre_Exportation.PNG)
+![확정](https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566730861_1.PNG)
+![확정 대기](https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566730881_2.PNG)
+![사용자 지정](https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566730897_3.PNG)
+![무시](https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566730912_4.PNG)
+
+</details>
 
 | 기능 | 단축키 |
 |---|---|
@@ -259,6 +298,17 @@ EET는 옵션이 매우 많습니다. 처음부터 전부 변경하기보다 **�
 
 ### 일반 옵션
 
+<details>
+<summary><strong>원문 스크린샷 - 옵션 화면</strong></summary>
+
+![일반 옵션](https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566765609_Options_gA_nA_rales_1.PNG)
+![인코딩 관련 옵션](https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566765638_Options_gA_nA_rales_2.PNG)
+![검수 열 옵션](https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566765651_Options_gA_nA_rales_3.PNG)
+![데이터베이스 옵션](https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566812725_Options_BDD_1.PNG)
+![스크립트 및 MCM 옵션](https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566813733_Scripts_1.PNG)
+
+</details>
+
 주로 다음을 설정합니다.
 
 - 기본 DB
@@ -315,6 +365,13 @@ EET에서 말하는 인코딩은 **플러그인 파일 포맷 버전**이 아니
 
 원문 튜토리얼은 당시 기준으로 다음과 같이 설명합니다.
 
+<details>
+<summary><strong>원문 스크린샷 - 인코딩 선택</strong></summary>
+
+![인코딩 선택](https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1531262351_Capture.PNG)
+
+</details>
+
 - 구형 Bethesda 게임: 주로 Windows-1252 계열
 - Skyrim Special Edition / Fallout 4: UTF-8 사용
 
@@ -327,6 +384,14 @@ EET에서 말하는 인코딩은 **플러그인 파일 포맷 버전**이 아니
 EET의 강점 중 하나는 기존 게임 문자열 DB를 검색하고 재사용할 수 있다는 점입니다.
 
 DB에는 보통 다음과 같은 문자열이 들어갑니다.
+
+<details>
+<summary><strong>원문 스크린샷 - 게임 DB</strong></summary>
+
+![게임 DB 선택](https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566422556_Capture.PNG)
+![게임 DB 검색](https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566844639_BDD_1.PNG)
+
+</details>
 
 - 바닐라 게임 문자열
 - 비공식 패치 수정 문자열
@@ -351,6 +416,13 @@ DB 검색은 단순 자동 번역보다 **고유명사와 기존 공식 표현�
 모드를 열자마자 모든 미번역 줄을 하나씩 번역하기보다는, 먼저 **실제로 번역할 필요가 없는 레코드**를 걸러내는 것이 효율적입니다.
 
 ### 방법 1: 무시 상태
+
+<details>
+<summary><strong>원문 스크린샷 - 무시 처리 예시</strong></summary>
+
+![무시 처리](https://www.confrerie-des-traducteurs.fr/forum/upload/Oaristys/Oaristys_1488712504_ignore.jpg)
+
+</details>
 
 `Ctrl + Shift + F10`
 
@@ -388,6 +460,14 @@ DB 검색은 단순 자동 번역보다 **고유명사와 기존 공식 표현�
 
 현재 모드 검색은 `F4`로 열 수 있습니다.
 
+<details>
+<summary><strong>원문 스크린샷 - 모드 검색과 필터</strong></summary>
+
+![F4 모드 검색](https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1567069862_F4.PNG)
+![열 필터](https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1567250930_Capture.PNG)
+
+</details>
+
 이 기능은 동일한 용어가 여러 곳에서 쓰이는지 확인하거나 번역을 통일할 때 매우 유용합니다.
 
 또한 각 열 위의 필터 입력란을 이용해 다음 값으로 범위를 줄일 수 있습니다.
@@ -424,6 +504,13 @@ DB 검색은 단순 자동 번역보다 **고유명사와 기존 공식 표현�
 이전 작업 파일을 다시 불러옵니다.
 
 ### 부분 저장
+
+<details>
+<summary><strong>원문 스크린샷 - 부분 저장</strong></summary>
+
+![부분 저장](https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566842190_FenA_tre_Sauvegarde_partielle.PNG)
+
+</details>
 
 `Ctrl + Shift + S`
 
@@ -468,6 +555,13 @@ GRUP, 상태, 선택한 줄 등을 기준으로 일부 문자열만 내보낼 �
 
 번역 결과를 생성한 뒤에는 **인게임 테스트가 필수**입니다.
 
+<details>
+<summary><strong>원문 스크린샷 - 최종 번역 출력</strong></summary>
+
+![번역 출력 완료](https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1531262947_le_tour.PNG)
+
+</details>
+
 아카이브에서 추출된 파일이나 스크립트/MCM 파일을 함께 번역했다면 최종 배포 폴더에 필요한 파일이 모두 들어갔는지도 확인하세요.
 
 ---
@@ -477,6 +571,13 @@ GRUP, 상태, 선택한 줄 등을 기준으로 일부 문자열만 내보낼 �
 ## 4.1 작업 환경
 
 장시간 EET를 사용한다면 가독성을 먼저 챙기는 것이 좋습니다.
+
+<details>
+<summary><strong>원문 스크린샷 - 별도 번역 창</strong></summary>
+
+![별도 번역 창](https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566841246_FenA_tre_Traduction.PNG)
+
+</details>
 
 - 작업 영역 글꼴 크기 키우기
 - 더 큰 번역 창 사용
@@ -490,6 +591,13 @@ GRUP, 상태, 선택한 줄 등을 기준으로 일부 문자열만 내보낼 �
 ## 4.2 주석 활용
 
 **주석(Comment)** 열은 큰 모드를 번역할 때 매우 유용합니다.
+
+<details>
+<summary><strong>원문 스크린샷 - 주석으로 NPC 필터링</strong></summary>
+
+![NPC 주석 필터](https://www.confrerie-des-traducteurs.fr/forum/upload/Oaristys/Oaristys_1488712564_filtre_npc.jpg)
+
+</details>
 
 예:
 
@@ -505,6 +613,13 @@ GRUP, 상태, 선택한 줄 등을 기준으로 일부 문자열만 내보낼 �
 ## 4.3 미리보기 기능
 
 EET는 레코드에 따라 다음 자료를 미리 볼 수 있습니다.
+
+<details>
+<summary><strong>원문 스크린샷 - 미리보기 도구</strong></summary>
+
+![미리보기 도구](https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1567070824_4.PNG)
+
+</details>
 
 - 스크립트
 - 책
@@ -523,6 +638,13 @@ Bethesda 플러그인의 대화문은 DIAL과 INFO 등 여러 레코드로 나�
 
 권장 방법:
 
+<details>
+<summary><strong>원문 스크린샷 - 관련 대사/레코드 확인</strong></summary>
+
+![관련 레코드](https://www.confrerie-des-traducteurs.fr/forum/upload/Oaristys/Oaristys_1488712593_ligne_liee.jpg)
+
+</details>
+
 - 가능한 경우 원래 레코드 순서로 보기
 - 관련 레코드 확인
 - 주석에서 NPC 이름/감정 확인
@@ -536,6 +658,13 @@ Bethesda 플러그인의 대화문은 DIAL과 INFO 등 여러 레코드로 나�
 ## 4.5 VMAD
 
 인게임에서 영어가 보이는데 EET의 일반 문자열 목록에 나오지 않는 경우, 특히 MCM 관련 문자열이라면 VMAD에 들어 있을 가능성이 있습니다.
+
+<details>
+<summary><strong>원문 스크린샷 - VMAD 활성화</strong></summary>
+
+![VMAD 활성화](https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566475558_Capture.PNG)
+
+</details>
 
 필요한 경우:
 
@@ -555,6 +684,13 @@ Bethesda 플러그인의 대화문은 DIAL과 INFO 등 여러 레코드로 나�
 ## 4.6 스크립트
 
 스크립트 문자열은 가장 주의해야 하는 부분입니다.
+
+<details>
+<summary><strong>원문 스크린샷 - 스크립트 창</strong></summary>
+
+![스크립트 창](https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566842921_FenA_tre_Scripts.PNG)
+
+</details>
 
 **변수명, 상태명, 내부 식별자 등을 번역하면 스크립트가 망가질 수 있습니다.**
 
@@ -599,6 +735,13 @@ String Property xxx Auto =
 
 모드 본편과 여러 패치를 함께 번역할 때 여러 탭을 동시에 열어두면 용어 일관성을 맞추기 쉽습니다.
 
+<details>
+<summary><strong>원문 스크린샷 - 단일 탭/여러 모드 작업</strong></summary>
+
+![단일 탭 작업](https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1567071867_Onglet_unique.PNG)
+
+</details>
+
 설정에 따라 한 탭의 번역을 다른 열린 모드에 전달할 수도 있습니다.
 
 한국어 UI에서는 이 기능을 다음처럼 이해하면 편합니다.
@@ -625,6 +768,14 @@ EET는 다음 작업을 지원합니다.
 ## 4.9 개인 데이터베이스
 
 개인 DB는 자신이 번역하고 검수한 문자열을 재사용하는 기능입니다.
+
+<details>
+<summary><strong>원문 스크린샷 - 개인 DB</strong></summary>
+
+![개인 DB 설정](https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566475166_Capture.PNG)
+![선택 줄 개인 DB 추가](https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1574693945_EET_Clic_droit.PNG)
+
+</details>
 
 장점:
 
@@ -661,6 +812,13 @@ EET는 다음 작업을 지원합니다.
 ## 검수 열
 
 큰 번역을 검수하거나 두 번역본을 비교한다면 **검수 열**을 활용하세요.
+
+<details>
+<summary><strong>원문 스크린샷 - 검수 열</strong></summary>
+
+![검수 열](https://www.confrerie-des-traducteurs.fr/forum/upload/Yoplala/Yoplala_1566474912_Capture.PNG)
+
+</details>
 
 ```text
 옵션 → 일반 옵션 → 검수
