@@ -35,12 +35,12 @@ jobs:
 
           # Establish a forum session first. The source forum blocks hotlinked image requests.
           subprocess.run([
-              "curl", "-L", "--fail", "--retry", "2",
+              "curl", "-L", "--retry", "1",
               "-A", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/154 Safari/537.36",
               "-c", "/tmp/confrerie-cookies.txt",
               "-o", "/tmp/confrerie-tutorial.html",
               referer
-          ], check=True)
+          ])
 
           replacements = {}
           for i, url in enumerate(urls, 1):
@@ -61,17 +61,42 @@ jobs:
                   "-o", str(target), url
               ]
               direct = subprocess.run(cmd)
-              if direct.returncode != 0:
+              ok = direct.returncode == 0 and target.exists() and target.stat().st_size >= 100
+              if not ok:
                   from urllib.parse import quote
                   proxy = "https://images.weserv.nl/?url=" + quote(url, safe="")
                   print("Direct fetch blocked; retrying through image proxy:", proxy)
+                  p = subprocess.run([
+                      "curl", "-L", "--fail", "--retry", "2",
+                      "-A", "Mozilla/5.0",
+                      "-o", str(target), proxy
+                  ])
+                  ok = p.returncode == 0 and target.exists() and target.stat().st_size >= 100
+
+              if not ok:
+                  import json
+                  from urllib.parse import quote
+                  cdx = (
+                      "https://web.archive.org/cdx/search/cdx?url="
+                      + quote(url, safe="")
+                      + "&output=json&filter=statuscode:200&fl=timestamp,original&limit=5&from=2018"
+                  )
+                  print("Trying Wayback Machine:", cdx)
+                  raw = subprocess.check_output(["curl", "-L", "--fail", "-sS", cdx], text=True)
+                  rows = json.loads(raw)
+                  if len(rows) < 2:
+                      raise RuntimeError(f"No archived screenshot found: {url}")
+                  ts, original = rows[-1]
+                  archived = f"https://web.archive.org/web/{ts}id_/{original}"
                   subprocess.run([
                       "curl", "-L", "--fail", "--retry", "3",
                       "-A", "Mozilla/5.0",
-                      "-o", str(target), proxy
+                      "-o", str(target), archived
                   ], check=True)
-              if target.stat().st_size < 100:
-                  raise RuntimeError(f"Downloaded file is suspiciously small: {target}")
+                  ok = target.exists() and target.stat().st_size >= 100
+
+              if not ok:
+                  raise RuntimeError(f"Could not obtain screenshot: {url}")
               replacements[url] = target.as_posix()
 
           for old, new in replacements.items():
