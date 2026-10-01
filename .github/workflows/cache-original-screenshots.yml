@@ -39,12 +39,22 @@ jobs:
               safe = re.sub(r'[^A-Za-z0-9._-]+', '_', base)
               target = out / f"{i:02d}_{safe}"
               print(f"[{i}/{len(urls)}] {url} -> {target}")
-              subprocess.run([
-                  "curl", "-L", "--fail", "--retry", "3",
+              cmd = [
+                  "curl", "-L", "--fail", "--retry", "2",
                   "-A", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/154 Safari/537.36",
                   "-e", referer,
                   "-o", str(target), url
-              ], check=True)
+              ]
+              direct = subprocess.run(cmd)
+              if direct.returncode != 0:
+                  from urllib.parse import quote
+                  proxy = "https://images.weserv.nl/?url=" + quote(url, safe="")
+                  print("Direct fetch blocked; retrying through image proxy:", proxy)
+                  subprocess.run([
+                      "curl", "-L", "--fail", "--retry", "3",
+                      "-A", "Mozilla/5.0",
+                      "-o", str(target), proxy
+                  ], check=True)
               if target.stat().st_size < 100:
                   raise RuntimeError(f"Downloaded file is suspiciously small: {target}")
               replacements[url] = target.as_posix()
