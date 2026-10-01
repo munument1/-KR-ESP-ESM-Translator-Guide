@@ -33,6 +33,15 @@ jobs:
           out.mkdir(parents=True, exist_ok=True)
           referer = "https://www.confrerie-des-traducteurs.fr/forum/viewtopic.php?f=372&t=29457"
 
+          # Establish a forum session first. The source forum blocks hotlinked image requests.
+          subprocess.run([
+              "curl", "-L", "--fail", "--retry", "2",
+              "-A", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/154 Safari/537.36",
+              "-c", "/tmp/confrerie-cookies.txt",
+              "-o", "/tmp/confrerie-tutorial.html",
+              referer
+          ], check=True)
+
           replacements = {}
           for i, url in enumerate(urls, 1):
               base = Path(urlparse(url).path).name
@@ -43,6 +52,12 @@ jobs:
                   "curl", "-L", "--fail", "--retry", "2",
                   "-A", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/154 Safari/537.36",
                   "-e", referer,
+                  "-b", "/tmp/confrerie-cookies.txt",
+                  "-c", "/tmp/confrerie-cookies.txt",
+                  "-H", "Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+                  "-H", "Sec-Fetch-Dest: image",
+                  "-H", "Sec-Fetch-Mode: no-cors",
+                  "-H", "Sec-Fetch-Site: same-origin",
                   "-o", str(target), url
               ]
               direct = subprocess.run(cmd)
