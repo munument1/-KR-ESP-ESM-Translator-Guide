@@ -8,8 +8,9 @@ ESP-ESM Translator(EET)를 이용해 Bethesda 계열 게임의 ESP/ESM/ESL 플�
 > 원문 최초 게시: 2019-03-05  
 > 프로그램과 메뉴 구성은 버전에 따라 달라질 수 있습니다.
 
-> 스크린샷은 원문에 실린 **프랑스어 UI**를 그대로 사용합니다. 본문의 한국어 메뉴명과 대조해 위치와 기능을 확인하세요.
-> 이미지는 저장소에 포함되어 있으며, 원본 이미지 주소와 파일 정보는 [스크린샷 출처 목록](images/SOURCES.md)에서 확인할 수 있습니다.
+> **한국어 UI 스크린샷은 EET 4.37을 직접 실행해 촬영했습니다.** 메인 창의 번호·화살표는 실제 캡처 위에 SVG 레이어로 추가했습니다. [촬영 정보와 원본](images/ko-4.37/SOURCES.md)을 함께 제공합니다.
+> 예제 파일은 `Knights - Unofficial Patch.esp`이며, 화면의 번역문은 설치본에 포함된 **영어→프랑스어 DB**에서 가져온 기능 설명용 예시입니다. 한국어 번역 결과를 보여주는 화면이 아닙니다.
+> 아직 새로 촬영하지 않은 기능은 **원문·프랑스어 구버전** 화면으로 표시합니다. 원문의 98개 이미지는 [원문 화면 보관본](docs/original-screenshots.md)과 [출처 목록](images/SOURCES.md)에서 확인할 수 있습니다.
 
 > [!IMPORTANT]
 > 이 가이드에서 사용하는 메뉴명은 한국어 UI에서 이해하기 쉽도록 정리한 표현을 기준으로 합니다.  
@@ -55,7 +56,7 @@ EET는 ESP/ESM/ESL을 비롯한 여러 모드 파일에서 번역 가능한 문�
 
 원문에서는 La Confrérie des Traducteurs에서 배포되는 EET 패키지를 기준으로 설명합니다.
 
-![원문 배포 페이지의 EET 다운로드 버튼](images/original/Yoplala_1555505085_EET.PNG)
+![원문·프랑스어 구버전: 원문 배포 페이지의 EET 다운로드 버튼](images/original/Yoplala_1555505085_EET.PNG)
 
 - EET 원문 배포 페이지:  
   https://www.confrerie-des-traducteurs.fr/skyrim/mods/utilitaires/eet___esp_esm_translator
@@ -76,9 +77,9 @@ Modding Tools/
 <details>
 <summary>원문 설치 과정 스크린샷 펼쳐보기</summary>
 
-![원문 설치 과정 스크린샷 1](images/original/Yoplala_1555505272_EET_1.PNG)
+![원문·프랑스어 구버전: 원문 설치 과정 스크린샷 1](images/original/Yoplala_1555505272_EET_1.PNG)
 
-![원문 설치 과정 스크린샷 2](images/original/Yoplala_1566419931_Yoplala_1555505283_EET_2.PNG)
+![원문·프랑스어 구버전: 원문 설치 과정 스크린샷 2](images/original/Yoplala_1566419931_Yoplala_1555505283_EET_2.PNG)
 
 </details>
 
@@ -91,7 +92,9 @@ Modding Tools/
 
 EET에서 모드를 열면 대략 다음 영역으로 나뉩니다.
 
-![EET 메인 창의 11개 영역: 아래 번호별 설명과 대응](images/original/Yoplala_1566755382_FenA_tre_principale_2.PNG)
+![EET 4.37 한국어 메인 창의 11개 영역](images/ko-4.37/main-annotated.svg)
+
+[주석 없는 실제 캡처 보기](images/ko-4.37/raw/main.png)
 
 
 1. **제목 표시줄**  
@@ -163,15 +166,19 @@ EET에서 모드를 열면 대략 다음 영역으로 나뉩니다.
 - **종료**
 
 <details>
-<summary>프로그램 언어 설정 창 펼쳐보기</summary>
+<summary>프로그램 언어 설정 창 펼쳐보기 — EET 4.37 한국어</summary>
 
-![프로그램 언어 설정 창](images/original/Yoplala_1566841668_FenA_tre_Langues.PNG)
+![EET 4.37 한국어 UI: 파일 메뉴](images/ko-4.37/raw/menu-file.png)
+
+![EET 4.37 한국어 UI: 일반 옵션의 언어 설정](images/ko-4.37/raw/options-general.png)
 
 </details>
 
 > 번역 결과를 생성할 때는 보통 **확정된 문자열**만 최종 결과에 반영됩니다. 작업 중인 상태와 최종 출력 상태를 구분해서 사용하는 것이 좋습니다.
 
 ### 편집
+
+![EET 4.37 한국어 UI: 편집 메뉴와 단축키](images/ko-4.37/raw/menu-edit.png)
 
 
 | 기능 | 단축키 |
@@ -189,18 +196,26 @@ EET에서 모드를 열면 대략 다음 영역으로 나뉩니다.
 | 원문을 번역문에 그대로 적용 | `F8` |
 | 검수 내용을 번역문에 적용 | `Shift + F8` |
 | 자동 번역 적용 | `F9` |
-| 웹 번역 검색 | `F12` |
+| DeepL로 선택한 원문 번역 | `F12` |
+| Google로 선택한 원문 번역 | `Shift + F12` |
+| 웹에서 선택한 원문 번역 | `Ctrl + Shift + F12` |
+| 일괄 웹 번역 | `Ctrl + F12` |
+| 동일 원문에 번역문 적용 | `Ctrl + F6` |
 
 <details>
 <summary>찾기 및 바꾸기와 텍스트 내보내기 창 펼쳐보기</summary>
 
-![찾기 및 바꾸기와 텍스트 내보내기 창 1](images/original/Yoplala_1566841816_FenA_tre_Recherche.PNG)
+![EET 4.37 한국어 UI: 찾기 및 바꾸기 창](images/ko-4.37/raw/find-replace.png)
 
-![찾기 및 바꾸기와 텍스트 내보내기 창 2](images/original/Yoplala_1566842010_FenA_tre_Exportation.PNG)
+![원문·프랑스어 구버전: 찾기 및 바꾸기와 텍스트 내보내기 창 1](images/original/Yoplala_1566841816_FenA_tre_Recherche.PNG)
+
+![원문·프랑스어 구버전: 찾기 및 바꾸기와 텍스트 내보내기 창 2](images/original/Yoplala_1566842010_FenA_tre_Exportation.PNG)
 
 </details>
 
 ### 번역
+
+![EET 4.37 한국어 UI: 번역 메뉴](images/ko-4.37/raw/menu-translation.png)
 
 - **번역 저장** — `Ctrl + S`
 - **다른 이름으로 저장**
@@ -218,25 +233,27 @@ EET에서 모드를 열면 대략 다음 영역으로 나뉩니다.
 <details>
 <summary>자동 번역 옵션 화면 펼쳐보기</summary>
 
-![자동 번역 옵션 화면 1](images/original/Yoplala_1566843506_Auto_1.PNG)
+![원문·프랑스어 구버전: 자동 번역 옵션 화면 1](images/original/Yoplala_1566843506_Auto_1.PNG)
 
-![자동 번역 옵션 화면 2](images/original/Yoplala_1566843523_Auto_2.PNG)
+![원문·프랑스어 구버전: 자동 번역 옵션 화면 2](images/original/Yoplala_1566843523_Auto_2.PNG)
 
-![자동 번역 옵션 화면 3](images/original/Yoplala_1566843531_Auto_3.PNG)
+![원문·프랑스어 구버전: 자동 번역 옵션 화면 3](images/original/Yoplala_1566843531_Auto_3.PNG)
 
-![자동 번역 옵션 화면 4](images/original/Yoplala_1566843541_Auto_4.PNG)
+![원문·프랑스어 구버전: 자동 번역 옵션 화면 4](images/original/Yoplala_1566843541_Auto_4.PNG)
 
-![자동 번역 옵션 화면 5](images/original/Yoplala_1566843551_Auto_5.PNG)
+![원문·프랑스어 구버전: 자동 번역 옵션 화면 5](images/original/Yoplala_1566843551_Auto_5.PNG)
 
-![자동 번역 옵션 화면 6](images/original/Yoplala_1566843563_Auto_6.PNG)
+![원문·프랑스어 구버전: 자동 번역 옵션 화면 6](images/original/Yoplala_1566843563_Auto_6.PNG)
 
-![자동 번역 옵션 화면 7](images/original/Yoplala_1566843577_Auto_7.PNG)
+![원문·프랑스어 구버전: 자동 번역 옵션 화면 7](images/original/Yoplala_1566843577_Auto_7.PNG)
 
-![자동 번역 옵션 화면 8](images/original/Yoplala_1566843587_Auto_8.PNG)
+![원문·프랑스어 구버전: 자동 번역 옵션 화면 8](images/original/Yoplala_1566843587_Auto_8.PNG)
 
 </details>
 
 ### 데이터베이스 검색
+
+![EET 4.37 한국어 UI: 데이터베이스 메뉴](images/ko-4.37/raw/menu-database.png)
 
 | 대상 | 단축키 |
 |---|---|
@@ -251,31 +268,31 @@ EET에서 모드를 열면 대략 다음 영역으로 나뉩니다.
 <details>
 <summary>DB 검색·선택·가져오기 화면 펼쳐보기</summary>
 
-![DB 검색·선택·가져오기 화면 1](images/original/Yoplala_1566844671_BDD_3.PNG)
+![원문·프랑스어 구버전: DB 검색·선택·가져오기 화면 1](images/original/Yoplala_1566844671_BDD_3.PNG)
 
-![DB 검색·선택·가져오기 화면 2](images/original/Yoplala_1566844698_BDD_4.PNG)
+![원문·프랑스어 구버전: DB 검색·선택·가져오기 화면 2](images/original/Yoplala_1566844698_BDD_4.PNG)
 
-![DB 검색·선택·가져오기 화면 3](images/original/Yoplala_1566844714_BDD_5.PNG)
+![원문·프랑스어 구버전: DB 검색·선택·가져오기 화면 3](images/original/Yoplala_1566844714_BDD_5.PNG)
 
-![DB 검색·선택·가져오기 화면 4](images/original/Yoplala_1566844730_BDD_6.PNG)
+![원문·프랑스어 구버전: DB 검색·선택·가져오기 화면 4](images/original/Yoplala_1566844730_BDD_6.PNG)
 
-![DB 검색·선택·가져오기 화면 5](images/original/Yoplala_1566842626_FenA_tre_Multiple_1.PNG)
+![원문·프랑스어 구버전: DB 검색·선택·가져오기 화면 5](images/original/Yoplala_1566842626_FenA_tre_Multiple_1.PNG)
 
-![DB 검색·선택·가져오기 화면 6](images/original/Yoplala_1566842654_FenA_tre_Multiple_2.PNG)
+![원문·프랑스어 구버전: DB 검색·선택·가져오기 화면 6](images/original/Yoplala_1566842654_FenA_tre_Multiple_2.PNG)
 
-![DB 검색·선택·가져오기 화면 7](images/original/Yoplala_1566842678_FenA_tre_Multiple_3.PNG)
+![원문·프랑스어 구버전: DB 검색·선택·가져오기 화면 7](images/original/Yoplala_1566842678_FenA_tre_Multiple_3.PNG)
 
-![DB 검색·선택·가져오기 화면 8](images/original/Yoplala_1566842703_FenA_tre_Sauvegardes_1.PNG)
+![원문·프랑스어 구버전: DB 검색·선택·가져오기 화면 8](images/original/Yoplala_1566842703_FenA_tre_Sauvegardes_1.PNG)
 
-![DB 검색·선택·가져오기 화면 9](images/original/Yoplala_1566842727_FenA_tre_Sauvegardes_2.PNG)
+![원문·프랑스어 구버전: DB 검색·선택·가져오기 화면 9](images/original/Yoplala_1566842727_FenA_tre_Sauvegardes_2.PNG)
 
-![DB 검색·선택·가져오기 화면 10](images/original/Yoplala_1566842745_FenA_tre_Sauvegardes_3.PNG)
+![원문·프랑스어 구버전: DB 검색·선택·가져오기 화면 10](images/original/Yoplala_1566842745_FenA_tre_Sauvegardes_3.PNG)
 
-![DB 검색·선택·가져오기 화면 11](images/original/Yoplala_1566846516_Importation.PNG)
+![원문·프랑스어 구버전: DB 검색·선택·가져오기 화면 11](images/original/Yoplala_1566846516_Importation.PNG)
 
-![DB 검색·선택·가져오기 화면 12](images/original/Yoplala_1566846540_Importation_rapide.PNG)
+![원문·프랑스어 구버전: DB 검색·선택·가져오기 화면 12](images/original/Yoplala_1566846540_Importation_rapide.PNG)
 
-![DB 검색·선택·가져오기 화면 13](images/original/Yoplala_1566846621_Dictionnaire_d_analyse.PNG)
+![원문·프랑스어 구버전: DB 검색·선택·가져오기 화면 13](images/original/Yoplala_1566846621_Dictionnaire_d_analyse.PNG)
 
 </details>
 
@@ -296,13 +313,13 @@ EET에서 모드를 열면 대략 다음 영역으로 나뉩니다.
 <details>
 <summary>테마·줄 색상·작업 기록 화면 펼쳐보기</summary>
 
-![테마·줄 색상·작업 기록 화면 1](images/original/Yoplala_1566848160_ThA_mes.PNG)
+![원문·프랑스어 구버전: 테마·줄 색상·작업 기록 화면 1](images/original/Yoplala_1566848160_ThA_mes.PNG)
 
-![테마·줄 색상·작업 기록 화면 2](images/original/Yoplala_1566848183_Couleurs.PNG)
+![원문·프랑스어 구버전: 테마·줄 색상·작업 기록 화면 2](images/original/Yoplala_1566848183_Couleurs.PNG)
 
-![테마·줄 색상·작업 기록 화면 3](images/original/Yoplala_1566848268_Historique.PNG)
+![원문·프랑스어 구버전: 테마·줄 색상·작업 기록 화면 3](images/original/Yoplala_1566848268_Historique.PNG)
 
-![테마·줄 색상·작업 기록 화면 4](images/original/Yoplala_1566848308_Lises_modifs.PNG)
+![원문·프랑스어 구버전: 테마·줄 색상·작업 기록 화면 4](images/original/Yoplala_1566848308_Lises_modifs.PNG)
 
 </details>
 
@@ -349,11 +366,11 @@ EET에서 모드를 열면 대략 다음 영역으로 나뉩니다.
 <details>
 <summary>일관성 검사와 DB 변환 화면 펼쳐보기</summary>
 
-![일관성 검사와 DB 변환 화면 1](images/original/Yoplala_1566848354_CohA_rence_des_mods.PNG)
+![원문·프랑스어 구버전: 일관성 검사와 DB 변환 화면 1](images/original/Yoplala_1566848354_CohA_rence_des_mods.PNG)
 
-![일관성 검사와 DB 변환 화면 2](images/original/Yoplala_1566848393_Convertir_BDD.PNG)
+![원문·프랑스어 구버전: 일관성 검사와 DB 변환 화면 2](images/original/Yoplala_1566848393_Convertir_BDD.PNG)
 
-![일관성 검사와 DB 변환 화면 3](images/original/Yoplala_1566848425_Convertir_fichier_texte.PNG)
+![원문·프랑스어 구버전: 일관성 검사와 DB 변환 화면 3](images/original/Yoplala_1566848425_Convertir_fichier_texte.PNG)
 
 </details>
 
@@ -386,25 +403,13 @@ EET는 옵션이 매우 많습니다. 처음부터 전부 변경하기보다 **�
 자동 저장은 최소 한 개 이상의 백업을 남기도록 설정하는 편이 안전합니다.
 
 <details>
-<summary>일반 옵션과 기본 DB 설정 펼쳐보기</summary>
+<summary>일반 옵션과 기본 DB 설정 펼쳐보기 — EET 4.37 한국어</summary>
 
-![일반 옵션과 기본 DB 설정 1](images/original/Yoplala_1566765609_Options_gA_nA_rales_1.PNG)
+![EET 4.37 한국어 UI: 일반 옵션 상단](images/ko-4.37/raw/options-general.png)
 
-![일반 옵션과 기본 DB 설정 2](images/original/Yoplala_1566765762_Options_BDD.PNG)
+![EET 4.37 한국어 UI: 일반 옵션의 작업 기록·자동 저장](images/ko-4.37/raw/options-save.png)
 
-![일반 옵션과 기본 DB 설정 3](images/original/Yoplala_1566765638_Options_gA_nA_rales_2.PNG)
-
-![일반 옵션과 기본 DB 설정 4](images/original/Yoplala_1566765651_Options_gA_nA_rales_3.PNG)
-
-![일반 옵션과 기본 DB 설정 5](images/original/Yoplala_1566765675_Options_gA_nA_rales_4.PNG)
-
-![일반 옵션과 기본 DB 설정 6](images/original/Yoplala_1566768100_Options_gA_nA_rales_5.PNG)
-
-![일반 옵션과 기본 DB 설정 7](images/original/Yoplala_1566765706_Options_gA_nA_rales_6.PNG)
-
-![일반 옵션과 기본 DB 설정 8](images/original/Yoplala_1566768949_Capture.PNG)
-
-![일반 옵션과 기본 DB 설정 9](images/original/Yoplala_1566765743_Options_gA_nA_rales_8.PNG)
+> 캡처의 백업 수 0은 촬영 당시 설정이며 권장값이 아닙니다. 실제 작업에서는 백업을 최소 한 개 이상 남기세요.
 
 </details>
 
@@ -419,21 +424,9 @@ EET는 옵션이 매우 많습니다. 처음부터 전부 변경하기보다 **�
 - 기존 번역 모드 불러오기 동작
 
 <details>
-<summary>데이터베이스 옵션 펼쳐보기</summary>
+<summary>데이터베이스 옵션 펼쳐보기 — EET 4.37 한국어</summary>
 
-![데이터베이스 옵션 1](images/original/Yoplala_1566812725_Options_BDD_1.PNG)
-
-![데이터베이스 옵션 2](images/original/Yoplala_1566812738_Options_BDD_2.PNG)
-
-![데이터베이스 옵션 3](images/original/Yoplala_1566812754_Options_BDD_3.PNG)
-
-![데이터베이스 옵션 4](images/original/Yoplala_1566812768_Options_BDD_4.PNG)
-
-![데이터베이스 옵션 5](images/original/Yoplala_1566812786_Options_BDD_5.PNG)
-
-![데이터베이스 옵션 6](images/original/Yoplala_1566812797_Options_BDD_6.PNG)
-
-![데이터베이스 옵션 7](images/original/Yoplala_1566812811_Options_BDD_7.PNG)
+![EET 4.37 한국어 UI: 데이터베이스 옵션 상단](images/ko-4.37/raw/options-database.png)
 
 </details>
 
@@ -444,19 +437,9 @@ EET는 옵션이 매우 많습니다. 처음부터 전부 변경하기보다 **�
 VMAD 등은 일반 번역에서는 불필요할 수 있지만, **MCM 또는 스크립트 안에 실제 게임 표시 문자열이 들어간 모드**에서는 필요할 수 있습니다.
 
 <details>
-<summary>스크립트 및 MCM 옵션 펼쳐보기</summary>
+<summary>스크립트 및 MCM 옵션 펼쳐보기 — EET 4.37 한국어</summary>
 
-![스크립트 및 MCM 옵션 1](images/original/Yoplala_1566813733_Scripts_1.PNG)
-
-![스크립트 및 MCM 옵션 2](images/original/Yoplala_1566813745_Scripts_2.PNG)
-
-![스크립트 및 MCM 옵션 3](images/original/Yoplala_1566813759_Scripts_3.PNG)
-
-![스크립트 및 MCM 옵션 4](images/original/Yoplala_1566813772_Scripts_4.PNG)
-
-![스크립트 및 MCM 옵션 5](images/original/Yoplala_1566813782_Scripts_5.PNG)
-
-![스크립트 및 MCM 옵션 6](images/original/Yoplala_1566813796_Scripts_6.PNG)
+![EET 4.37 한국어 UI: 스크립트 및 MCM 옵션](images/ko-4.37/raw/options-scripts-vmad.png)
 
 </details>
 
@@ -465,9 +448,9 @@ VMAD 등은 일반 번역에서는 불필요할 수 있지만, **MCM 또는 스�
 게임별 GRUP과 FIELD 정의를 확인할 수 있습니다. 일부 필드의 최대 문자열 길이도 확인할 수 있습니다.
 
 <details>
-<summary>Def_grup.xml 설정 화면 펼쳐보기</summary>
+<summary>Def_grup.xml 설정 화면 펼쳐보기 — EET 4.37 한국어</summary>
 
-![Def_grup.xml 설정 화면](images/original/Yoplala_1566813818_Grup.PNG)
+![EET 4.37 한국어 UI: 게임별 GRUP/FIELD 정의](images/ko-4.37/raw/options-grup.png)
 
 </details>
 
@@ -479,21 +462,9 @@ VMAD 등은 일반 번역에서는 불필요할 수 있지만, **MCM 또는 스�
 - 각종 보조 기능
 
 <details>
-<summary>기타 옵션 펼쳐보기</summary>
+<summary>기타 옵션 펼쳐보기 — EET 4.37 한국어</summary>
 
-![기타 옵션 1](images/original/Yoplala_1566814250_Divers_1.PNG)
-
-![기타 옵션 2](images/original/Yoplala_1566814268_Divers_2.PNG)
-
-![기타 옵션 3](images/original/Yoplala_1566814285_Divers_3.PNG)
-
-![기타 옵션 4](images/original/Yoplala_1566814298_Divers_4.PNG)
-
-![기타 옵션 5](images/original/Yoplala_1566814313_Divers_5.PNG)
-
-![기타 옵션 6](images/original/Yoplala_1566814324_Divers_6.PNG)
-
-![기타 옵션 7](images/original/Yoplala_1566814341_Divers_7.PNG)
+![EET 4.37 한국어 UI: 기타 옵션 상단](images/ko-4.37/raw/options-other.png)
 
 </details>
 
@@ -504,34 +475,36 @@ VMAD 등은 일반 번역에서는 불필요할 수 있지만, **MCM 또는 스�
 특히 오래된 Bethesda 게임은 폰트와 인코딩 제약 때문에 모든 유니코드 문자를 표시할 수 있는 것이 아닙니다.
 
 <details>
-<summary>금지 문자 검사 설정 펼쳐보기</summary>
+<summary>금지 문자 검사 설정 펼쳐보기 — EET 4.37 한국어</summary>
 
-![금지 문자 검사 설정](images/original/Yoplala_1566814362_VA_rifications.PNG)
+![EET 4.37 한국어 UI: 금지 문자 검사 설정](images/ko-4.37/raw/options-checks.png)
 
 </details>
 
 ### 원문의 추가 옵션 화면
+
+![EET 4.37 한국어 UI: 인터페이스·글꼴·단축키 옵션](images/ko-4.37/raw/options-interface.png)
 
 원문의 옵션 설명에 포함된 폴더 설정(원문에서 구식으로 표시), 특수 검색, 인터페이스, 분석 규칙 화면입니다.
 
 <details>
 <summary>폴더·특수 검색·인터페이스·분석 규칙 옵션 펼쳐보기</summary>
 
-![폴더·특수 검색·인터페이스·분석 규칙 옵션 1](images/original/Yoplala_1566813842_Dossiers.PNG)
+![원문·프랑스어 구버전: 폴더·특수 검색·인터페이스·분석 규칙 옵션 1](images/original/Yoplala_1566813842_Dossiers.PNG)
 
-![폴더·특수 검색·인터페이스·분석 규칙 옵션 2](images/original/Yoplala_1566814210_Recherche_1.PNG)
+![원문·프랑스어 구버전: 폴더·특수 검색·인터페이스·분석 규칙 옵션 2](images/original/Yoplala_1566814210_Recherche_1.PNG)
 
-![폴더·특수 검색·인터페이스·분석 규칙 옵션 3](images/original/Yoplala_1566814223_Recherche_2.PNG)
+![원문·프랑스어 구버전: 폴더·특수 검색·인터페이스·분석 규칙 옵션 3](images/original/Yoplala_1566814223_Recherche_2.PNG)
 
-![폴더·특수 검색·인터페이스·분석 규칙 옵션 4](images/original/Yoplala_1566814234_Recherche_3.PNG)
+![원문·프랑스어 구버전: 폴더·특수 검색·인터페이스·분석 규칙 옵션 4](images/original/Yoplala_1566814234_Recherche_3.PNG)
 
-![폴더·특수 검색·인터페이스·분석 규칙 옵션 5](images/original/Yoplala_1566814382_Interface_1.PNG)
+![원문·프랑스어 구버전: 폴더·특수 검색·인터페이스·분석 규칙 옵션 5](images/original/Yoplala_1566814382_Interface_1.PNG)
 
-![폴더·특수 검색·인터페이스·분석 규칙 옵션 6](images/original/Yoplala_1566814400_Interface_2.PNG)
+![원문·프랑스어 구버전: 폴더·특수 검색·인터페이스·분석 규칙 옵션 6](images/original/Yoplala_1566814400_Interface_2.PNG)
 
-![폴더·특수 검색·인터페이스·분석 규칙 옵션 7](images/original/Yoplala_1566814416_Interface_3.PNG)
+![원문·프랑스어 구버전: 폴더·특수 검색·인터페이스·분석 규칙 옵션 7](images/original/Yoplala_1566814416_Interface_3.PNG)
 
-![폴더·특수 검색·인터페이스·분석 규칙 옵션 8](images/original/Yoplala_1566814437_RA_gles.PNG)
+![원문·프랑스어 구버전: 폴더·특수 검색·인터페이스·분석 규칙 옵션 8](images/original/Yoplala_1566814437_RA_gles.PNG)
 
 </details>
 
@@ -549,7 +522,9 @@ EET에서 말하는 인코딩은 **플러그인 파일 포맷 버전**이 아니
 - 구형 Bethesda 게임: 주로 Windows-1252 계열
 - Skyrim Special Edition / Fallout 4: UTF-8 사용
 
-![문자열 인코딩 선택 창](images/original/Yoplala_1531262351_Capture.PNG)
+![EET 4.37 한국어 UI: 문자열 인코딩 선택 창](images/ko-4.37/raw/encoding.png)
+
+> 한국어 4.37 캡처의 `utf-8`은 촬영 세션의 선택값이며 모든 Oblivion 플러그인에 적용할 권장값이 아닙니다.
 
 다만 실제 번역 환경, 플러그인 형식, 사용하는 한글화 방식에 따라 조건이 달라질 수 있으므로 **EET가 자동 감지한 값을 우선 확인하고, 작업 대상 게임의 한글화 방식도 함께 확인**하세요.
 
@@ -568,7 +543,7 @@ DB에는 보통 다음과 같은 문자열이 들어갑니다.
 
 현재 불러온 DB는 메인 창에서 확인할 수 있습니다.
 
-![메인 창의 게임 DB와 인코딩 선택 영역](images/original/Yoplala_1566422556_Capture.PNG)
+![EET 4.37 한국어 UI: 게임 DB와 인코딩 선택 영역은 화면 위쪽에서 확인](images/ko-4.37/raw/main.png)
 
 ### 활용 방법
 
@@ -580,9 +555,9 @@ DB 검색은 단순 자동 번역보다 **고유명사와 기존 공식 표현�
 
 예를 들어 새 대사 안에 기존 지명이나 아이템 이름이 들어 있다면, DB에서 해당 단어가 기존 게임에서 어떻게 쓰였는지 먼저 검색하면 용어 일관성을 유지하기 쉽습니다.
 
-![즉시 번역과 게임 DB 검색 화면 1](images/original/Oaristys_1488712761_f5.jpg)
+![원문·프랑스어 구버전: 즉시 번역과 게임 DB 검색 화면 1](images/original/Oaristys_1488712761_f5.jpg)
 
-![즉시 번역과 게임 DB 검색 화면 2](images/original/Yoplala_1566844639_BDD_1.PNG)
+![EET 4.37 한국어 UI: 게임 DB 검색 창](images/ko-4.37/raw/database-search.png)
 
 
 ---
@@ -624,7 +599,7 @@ DB 검색은 단순 자동 번역보다 **고유명사와 기존 공식 표현�
 
 하지만 **레코드 종류만 보고 기계적으로 전부 제외하면 안 됩니다.** 실제 인게임 표시 여부와 모드 구조를 확인하세요.
 
-![번역하지 않을 문자열을 무시 상태로 표시한 예](images/original/Oaristys_1488712504_ignore.jpg)
+![원문·프랑스어 구버전: 번역하지 않을 문자열을 무시 상태로 표시한 예](images/original/Oaristys_1488712504_ignore.jpg)
 
 
 ---
@@ -636,7 +611,7 @@ DB 검색은 단순 자동 번역보다 **고유명사와 기존 공식 표현�
 
 이 기능은 동일한 용어가 여러 곳에서 쓰이는지 확인하거나 번역을 통일할 때 매우 유용합니다.
 
-![현재 모드 검색 창: F4](images/original/Yoplala_1567069862_F4.PNG)
+![EET 4.37 한국어 UI: 현재 모드 검색 창 F4](images/ko-4.37/raw/current-mod-search.png)
 
 또한 각 열 위의 필터 입력란을 이용해 다음 값으로 범위를 줄일 수 있습니다.
 
@@ -649,7 +624,7 @@ DB 검색은 단순 자동 번역보다 **고유명사와 기존 공식 표현�
 
 작업 중에는 검색과 필터를 적극적으로 사용하는 편이 좋습니다.
 
-![문자열 표의 열별 필터 입력란](images/original/Yoplala_1567250930_Capture.PNG)
+![원문·프랑스어 구버전: 문자열 표의 열별 필터 입력란](images/original/Yoplala_1567250930_Capture.PNG)
 
 ---
 
@@ -682,7 +657,7 @@ DB 검색은 단순 자동 번역보다 **고유명사와 기존 공식 표현�
 
 GRUP, 상태, 선택한 줄 등을 기준으로 일부 문자열만 내보낼 수 있습니다.
 
-![번역 부분 저장 창](images/original/Yoplala_1566842190_FenA_tre_Sauvegarde_partielle.PNG)
+![EET 4.37 한국어 UI: 번역 부분 저장 창](images/ko-4.37/raw/partial-save.png)
 
 ---
 
@@ -721,7 +696,7 @@ GRUP, 상태, 선택한 줄 등을 기준으로 일부 문자열만 내보낼 �
 
 번역 결과를 생성한 뒤에는 **인게임 테스트가 필수**입니다.
 
-![번역된 플러그인 생성 완료 메시지](images/original/Yoplala_1531262947_le_tour.PNG)
+![원문·프랑스어 구버전: 번역된 플러그인 생성 완료 메시지](images/original/Yoplala_1531262947_le_tour.PNG)
 
 
 아카이브에서 추출된 파일이나 스크립트/MCM 파일을 함께 번역했다면 최종 배포 폴더에 필요한 파일이 모두 들어갔는지도 확인하세요.
@@ -742,7 +717,7 @@ GRUP, 상태, 선택한 줄 등을 기준으로 일부 문자열만 내보낼 �
 
 메인 표의 줄을 더블 클릭하면 별도의 번역 창을 사용할 수 있는 버전도 있습니다.
 
-![별도의 번역 작업 창](images/original/Yoplala_1566841246_FenA_tre_Traduction.PNG)
+![원문·프랑스어 구버전: 별도의 번역 작업 창](images/original/Yoplala_1566841246_FenA_tre_Traduction.PNG)
 
 ---
 
@@ -760,7 +735,7 @@ GRUP, 상태, 선택한 줄 등을 기준으로 일부 문자열만 내보낼 �
 
 대화문의 존댓말/반말, 성별 어미, 인물별 말투를 맞추려면 가능하면 주석과 관련 레코드를 함께 확인하세요.
 
-![주석 열에서 NPC 이름을 필터링한 예](images/original/Oaristys_1488712564_filtre_npc.jpg)
+![원문·프랑스어 구버전: 주석 열에서 NPC 이름을 필터링한 예](images/original/Oaristys_1488712564_filtre_npc.jpg)
 
 
 ---
@@ -775,7 +750,7 @@ EET는 레코드에 따라 다음 자료를 미리 볼 수 있습니다.
 - NIF 모델
 - 음성 파일
 
-![스크립트·책·모델·음성 미리보기 버튼](images/original/Yoplala_1567070824_4.PNG)
+![원문·프랑스어 구버전: 스크립트·책·모델·음성 미리보기 버튼](images/original/Yoplala_1567070824_4.PNG)
 
 NIF 미리보기는 NifSkope 경로를 설정해야 할 수 있습니다.
 
@@ -784,9 +759,9 @@ NIF 미리보기는 NifSkope 경로를 설정해야 할 수 있습니다.
 <details>
 <summary>스크립트와 책 미리보기 창 펼쳐보기</summary>
 
-![스크립트와 책 미리보기 창 1](images/original/Yoplala_1566848643_Scripts.PNG)
+![원문·프랑스어 구버전: 스크립트와 책 미리보기 창 1](images/original/Yoplala_1566848643_Scripts.PNG)
 
-![스크립트와 책 미리보기 창 2](images/original/Yoplala_1566848659_Livres.PNG)
+![원문·프랑스어 구버전: 스크립트와 책 미리보기 창 2](images/original/Yoplala_1566848659_Livres.PNG)
 
 </details>
 
@@ -808,7 +783,7 @@ Bethesda 플러그인의 대화문은 DIAL과 INFO 등 여러 레코드로 나�
 
 **DIAL / INFO 관계는 단순 문자열 유사도가 아니라 실제 레코드 연결 관계를 기준으로 보는 것이 안전합니다.**
 
-![관련 레코드에서 연결된 대화문을 확인하는 예](images/original/Oaristys_1488712593_ligne_liee.jpg)
+![원문·프랑스어 구버전: 관련 레코드에서 연결된 대화문을 확인하는 예](images/original/Oaristys_1488712593_ligne_liee.jpg)
 
 
 ---
@@ -829,7 +804,7 @@ Bethesda 플러그인의 대화문은 DIAL과 INFO 등 여러 레코드로 나�
 
 을 활성화하고 모드를 다시 불러옵니다.
 
-![VMAD 분석 및 번역 활성화 옵션](images/original/Yoplala_1566475558_Capture.PNG)
+![EET 4.37 한국어 UI: VMAD 분석 옵션](images/ko-4.37/raw/options-scripts-vmad.png)
 
 > VMAD에는 번역하면 안 되는 데이터도 많을 수 있습니다. 무조건 전체 번역하지 말고 실제 표시 문자열인지 확인하세요.
 
@@ -839,7 +814,7 @@ Bethesda 플러그인의 대화문은 DIAL과 INFO 등 여러 레코드로 나�
 
 스크립트 문자열은 가장 주의해야 하는 부분입니다.
 
-![번역할 문자열의 문맥을 확인하는 스크립트 창](images/original/Yoplala_1566842921_FenA_tre_Scripts.PNG)
+![원문·프랑스어 구버전: 번역할 문자열의 문맥을 확인하는 스크립트 창](images/original/Yoplala_1566842921_FenA_tre_Scripts.PNG)
 
 
 **변수명, 상태명, 내부 식별자 등을 번역하면 스크립트가 망가질 수 있습니다.**
@@ -895,7 +870,7 @@ String Property xxx Auto =
 
 확정된 문자열까지 무조건 덮어쓰는지 여부는 설정을 확인하세요.
 
-![여러 모드의 문자열을 모아 보는 모든 모드 탭](images/original/Yoplala_1567071867_Onglet_unique.PNG)
+![원문·프랑스어 구버전: 여러 모드의 문자열을 모아 보는 모든 모드 탭](images/original/Yoplala_1567071867_Onglet_unique.PNG)
 
 
 ---
@@ -913,9 +888,9 @@ EET는 다음 작업을 지원합니다.
 <details>
 <summary>여러 모드 분석과 두 모드 비교 창 펼쳐보기</summary>
 
-![여러 모드 분석과 두 모드 비교 창 1](images/original/Yoplala_1566846574_Analyse_mods.PNG)
+![원문·프랑스어 구버전: 여러 모드 분석과 두 모드 비교 창 1](images/original/Yoplala_1566846574_Analyse_mods.PNG)
 
-![여러 모드 분석과 두 모드 비교 창 2](images/original/Yoplala_1566846590_Comparaison.PNG)
+![원문·프랑스어 구버전: 여러 모드 분석과 두 모드 비교 창 2](images/original/Yoplala_1566846590_Comparaison.PNG)
 
 </details>
 
@@ -940,7 +915,7 @@ EET는 다음 작업을 지원합니다.
 
 따라서 **검수가 끝난 번역만 개인 DB에 넣는 것**을 권장합니다.
 
-![개인 데이터베이스 설정](images/original/Yoplala_1566475166_Capture.PNG)
+![원문·프랑스어 구버전: 개인 데이터베이스 설정](images/original/Yoplala_1566475166_Capture.PNG)
 
 - 개인 DB 검색: `Shift + F3`
 - 개인 DB 적용: `Ctrl + F5`
@@ -948,9 +923,9 @@ EET는 다음 작업을 지원합니다.
 <details>
 <summary>개인 DB 검색과 선택한 줄 추가 메뉴 펼쳐보기</summary>
 
-![개인 DB 검색과 선택한 줄 추가 메뉴 1](images/original/Yoplala_1566844656_BDD_2.PNG)
+![원문·프랑스어 구버전: 개인 DB 검색과 선택한 줄 추가 메뉴 1](images/original/Yoplala_1566844656_BDD_2.PNG)
 
-![개인 DB 검색과 선택한 줄 추가 메뉴 2](images/original/Yoplala_1574693945_EET_Clic_droit.PNG)
+![원문·프랑스어 구버전: 개인 DB 검색과 선택한 줄 추가 메뉴 2](images/original/Yoplala_1574693945_EET_Clic_droit.PNG)
 
 </details>
 
@@ -982,7 +957,7 @@ EET는 다음 작업을 지원합니다.
 
 검수 열의 문자열을 최종 번역 열로 옮길 때는 `Shift + F8`을 사용할 수 있습니다.
 
-![일반 옵션의 검수 열 설정](images/original/Yoplala_1566474912_Capture.PNG)
+![원문·프랑스어 구버전: 일반 옵션의 검수 열 설정](images/original/Yoplala_1566474912_Capture.PNG)
 
 ## 수정 사항만 전달하기
 
