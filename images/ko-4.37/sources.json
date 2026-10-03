@@ -1,0 +1,143 @@
+{
+  "captured_on": "2026-10-03",
+  "application": "ESP/ESM Translator 4.37 (Epervier 666)",
+  "ui_language": "Korean",
+  "sample_plugin": "Knights - Unofficial Patch.esp",
+  "sample_source": "Unofficial Oblivion DLC Patches (user-provided local installation; copied to temporary working directory)",
+  "translation_database": "BDD_Oblivion_EN-FR.eet (English to French demonstration, not Korean translation results)",
+  "captures": [
+    {
+      "file": "images/ko-4.37/raw/current-mod-search.png",
+      "width": 800,
+      "height": 450,
+      "sha256": "bf6aa962644834ffccdec72205ffe464a50c32d55e40c4f9a159f33a2f89cc06",
+      "kind": "native-ui-capture"
+    },
+    {
+      "file": "images/ko-4.37/raw/database-search.png",
+      "width": 800,
+      "height": 500,
+      "sha256": "964a88151976df2221c63bfb68cb5e1a2ba6d6b9b28a3ad484440b535cb03fa0",
+      "kind": "native-ui-capture"
+    },
+    {
+      "file": "images/ko-4.37/raw/encoding.png",
+      "width": 1024,
+      "height": 768,
+      "sha256": "335b3e6912edc52e18a2a721f6d3280ec30dcf7a4c890d8b371e24e2cefaabca",
+      "kind": "native-ui-capture"
+    },
+    {
+      "file": "images/ko-4.37/raw/find-replace.png",
+      "width": 566,
+      "height": 360,
+      "sha256": "9d13892cdcb70d5b950edbc07c8f8489bd3bc1bc781a6079f14a0c1614689abe",
+      "kind": "native-ui-capture"
+    },
+    {
+      "file": "images/ko-4.37/raw/main.png",
+      "width": 1024,
+      "height": 768,
+      "sha256": "b84e200abf4184154ef09c652d196f87ac8d90a29d72f80193f0199591926f56",
+      "kind": "native-ui-capture"
+    },
+    {
+      "file": "images/ko-4.37/raw/menu-database.png",
+      "width": 363,
+      "height": 369,
+      "sha256": "91ff0c3c53b21fdea21b5a2801fd5556c4dce058814e3126aeb430a0443a63a3",
+      "kind": "native-ui-capture"
+    },
+    {
+      "file": "images/ko-4.37/raw/menu-edit.png",
+      "width": 407,
+      "height": 558,
+      "sha256": "41920e65a7d635f9690d5d68682a8899b9f335672eff7c3d0d232cd43551c06c",
+      "kind": "native-ui-capture"
+    },
+    {
+      "file": "images/ko-4.37/raw/menu-file.png",
+      "width": 274,
+      "height": 182,
+      "sha256": "b707fc86247d414904fba07d16feecee9ba1603864834c81e539ca341b030df7",
+      "kind": "native-ui-capture"
+    },
+    {
+      "file": "images/ko-4.37/raw/menu-translation.png",
+      "width": 359,
+      "height": 329,
+      "sha256": "4ca06d70d0f7ab12dd2f843e4c70b85b54db99ed8de34cc9913900ac841834f8",
+      "kind": "native-ui-capture"
+    },
+    {
+      "file": "images/ko-4.37/raw/options-checks.png",
+      "width": 800,
+      "height": 600,
+      "sha256": "d745dc2c1f9b1ce058753552a14cc76a73b70b843498ae34c48ed251e4b7c50b",
+      "kind": "native-ui-capture"
+    },
+    {
+      "file": "images/ko-4.37/raw/options-database.png",
+      "width": 800,
+      "height": 600,
+      "sha256": "4a8bf8e15a8a9433dd094be7f83cdac30c406f41e3fd6f42f5960e6fb4e56a4a",
+      "kind": "native-ui-capture"
+    },
+    {
+      "file": "images/ko-4.37/raw/options-general.png",
+      "width": 800,
+      "height": 600,
+      "sha256": "dac73ce689f3c77cb80f4a339eb23227c89b72082050af0c01379860d0702bbb",
+      "kind": "native-ui-capture"
+    },
+    {
+      "file": "images/ko-4.37/raw/options-grup.png",
+      "width": 800,
+      "height": 600,
+      "sha256": "ca6c2833901ad45f59e3dcfe72ad5f9a9fc3199596fdc4c7d2314747035dd2ab",
+      "kind": "native-ui-capture"
+    },
+    {
+      "file": "images/ko-4.37/raw/options-interface.png",
+      "width": 800,
+      "height": 600,
+      "sha256": "231f063d3fc094ca28f7e7fdd4295f7bcb75d6ccde0394b2f007778f94fd1959",
+      "kind": "native-ui-capture"
+    },
+    {
+      "file": "images/ko-4.37/raw/options-other.png",
+      "width": 800,
+      "height": 600,
+      "sha256": "a51a335e50f11991ae3d724991feab3b5775d59358a7b45b31139d220f146ce5",
+      "kind": "native-ui-capture"
+    },
+    {
+      "file": "images/ko-4.37/raw/options-save.png",
+      "width": 800,
+      "height": 600,
+      "sha256": "d61dd72b44565914c61664011db70f3ac385d4767d5a5c866ae0cf4f1642bf31",
+      "kind": "native-ui-capture"
+    },
+    {
+      "file": "images/ko-4.37/raw/options-scripts-vmad.png",
+      "width": 800,
+      "height": 600,
+      "sha256": "f3461b02a39a05794bfacc0966637af0771676dd6f35db60b8f430b53889180d",
+      "kind": "native-ui-capture"
+    },
+    {
+      "file": "images/ko-4.37/raw/partial-save.png",
+      "width": 540,
+      "height": 444,
+      "sha256": "526b2cc245dd97dd734395ab0871279d573986c1f69f4267ec4349b99e21f2c6",
+      "kind": "native-ui-capture"
+    },
+    {
+      "file": "images/ko-4.37/main-annotated.svg",
+      "kind": "vector-annotation",
+      "base_capture": "images/ko-4.37/raw/main.png",
+      "sha256": "3ffc2cc5f23ede2dbe45cdb7f53412f0814f2eea16a928df1e104779b597ad65",
+      "embedded_png_sha256": "b84e200abf4184154ef09c652d196f87ac8d90a29d72f80193f0199591926f56"
+    }
+  ]
+}
